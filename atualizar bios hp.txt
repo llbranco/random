@@ -1,0 +1,24 @@
+This is the general process I use to flash my BIOS updates on my HP laptops as none of them run Windows. This also is the most-correct BIOS recovery procedure.
+
+Tested on G7-1277DX
+
+Find the "HP Unified Extensible Firmware Interface (UEFI) Support Environment" for your laptop model from the HP website.
+Execute this under windows and create a HP_TOOLS UEFI boot usb stick.
+If you can, on your laptop find the "System Board ID" in the bios. (should be a number)
+Obtain the latest BIOS update for your laptop
+Run phoenixtool on the bios you wish to recover.
+- If you have multiple .bin files, pick the one with the number closest to the number from step 3.
+You will get two files from phoenixtool...
+- RSA.SIG
+- <BIOS>F<VERSION>.bin.DEC
+Place both of these files on the usb stick at Hewlett-Packard/Bios/Current
+- RSA.SIG -> <BIOS>.SIG
+- <BIOS>F<VERSION>.bin.DEC -> <BIOS>.BIN
+For example:
+- 03453F12.bin.DEC -> 03453.BIN
+- RSA.SIG -> 03453.SIG
+Shut down your laptop, plug the USB stick, hold win + B and power on.
+Wait for the system bios to flash.
+This USB stick also gives you access to the "System Recovery" feature in the bios if you erased the UEFI partition.
+
+https://forums.mydigitallife.net/threads/hp-insyde-bios-recovery-steps.35272/
