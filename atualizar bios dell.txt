@@ -1,0 +1,14 @@
+Download the latest firmware from the Dell support
+Save the exe and create a shortcut with the following parameter: " /writehdrfile"
+Start the created shortcut and it will create a n5110a11.hdr file rename the file to N5110.hdr
+Create a shortcut exe file with the following parameter: " /writeromfile"
+Start the created shortcut and it will create a n5110a11.rom file rename the file to DQ15A11.rom
+Copy both file N5110.hdr and DQ15A11.rom to a FAT formatted pendrive's root folder
+Remove the charger and Battery from the laptop
+Plug In the pendrive
+Press & hold END
+Connect the charger (still hold END)
+The notebook starts automatically and shows the recovery screen
+Press enter and wait until finish the flashing
+Press esc to restart
+Hopefully problem solved
