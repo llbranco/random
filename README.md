@@ -8,3 +8,7 @@ https://www.youtube.com/watch?v=kQcEFsXEJEE
 https://buzzheavier.com/
 
 [youtube](https://www.youtube.com/watch?v=lrFcvq-BI84)
+
+
+# estudar esses projetos
+[Rich presence script for jailbroken playstation 4](https://github.com/zorua98741/PS4-Rich-Presence-for-Discord)
