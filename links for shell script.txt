@@ -1,0 +1,4 @@
+https://askubuntu.com/questions/1705/how-can-i-create-a-select-menu-in-a-shell-script
+
+opções e argumentos
+https://opensource.com/article/21/8/option-parsing-bash
