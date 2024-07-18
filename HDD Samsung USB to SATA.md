@@ -1,8 +1,6 @@
-**USB -------------> SATA**
-
+## Lista de compatibilidade USB/SATA
+USB -------------> SATA
 board number - numero da placa
-
-the boar
 
 100725482    --->  100720903
 
@@ -26,9 +24,15 @@ BF41-00282A  --->  BF41-00249B
 
 BF41-00311A  --->  BF41-00315A
 
-
-
 **Unconfirmed:**
 BF41-00231B  --->  BF41-00157A
 
 [Source/Fonte](https://www.data-medics.com/forum/threads/samsung-usb-to-sata-pcb-compatability.1438/)
+
+
+## outros links
+
+(hd/ssd info/datasheet/firmware/tools)
+
+https://smarthdd.com/      https://files.hddguru.com/
+
