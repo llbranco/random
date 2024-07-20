@@ -1,5 +1,4 @@
 :: credits: https://gist.github.com/janasco/c6168d17ed6eb4b6eaf7fd46fb775f60
-
 @echo off & setlocal enableextensions
 title Reset AnyDesk
 reg query HKEY_USERS\S-1-5-19 >NUL || (echo Please Run as administrator.& pause >NUL&exit)
@@ -12,6 +11,8 @@ rd /s /q "%temp%\thumbnails" 2>NUL
 xcopy /c /e /h /r /y /i /k "%APPDATA%\AnyDesk\thumbnails" "%temp%\thumbnails"
 del /f /a /q "%ALLUSERSPROFILE%\AnyDesk\*"
 del /f /a /q "%APPDATA%\AnyDesk\*"
+del /f /a /q "%programdata%\AnyDesk\*"
+
 call :start_any
 :lic
 type "%ALLUSERSPROFILE%\AnyDesk\system.conf" | find "ad.anynet.id=" || goto lic
