@@ -13,6 +13,7 @@ https://buzzheavier.com/
 # estudar esses projetos
 [Rich presence script for jailbroken playstation 4](https://github.com/zorua98741/PS4-Rich-Presence-for-Discord)
 
+[windows setup helper](https://github.com/jmclaren7/windows-setup-helper)
 
 # wifi hotspot
 [linux-wifi-hotspot](https://github.com/lakinduakash/linux-wifi-hotspot)
