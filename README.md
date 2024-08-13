@@ -15,6 +15,7 @@ https://buzzheavier.com/
 
 [windows setup helper](https://github.com/jmclaren7/windows-setup-helper)
 [recreate winre](https://www.tenforums.com/performance-maintenance/211034-recreate-winre-files-new-recovery-partition.html)
+https://www.youtube.com/watch?v=FIypwVBowdI
 
 # wifi hotspot
 [linux-wifi-hotspot](https://github.com/lakinduakash/linux-wifi-hotspot)
